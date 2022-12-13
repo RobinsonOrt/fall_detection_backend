@@ -14,8 +14,8 @@ from datetime import datetime, timedelta
 import os
 from twilio.rest import Client
 
-account_sid = 'AC1d7bfd737e04c0d4675985ed7f416809'
-auth_token = 'c8f4264f24dca45b7e2567654e688c39'
+account_sid = ''#insert account ssid
+auth_token = ''#insert auth token
 client = Client(account_sid, auth_token)
 # print("?==================================00")
 parser = argparse.ArgumentParser(
