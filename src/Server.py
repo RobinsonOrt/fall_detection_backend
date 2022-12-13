@@ -6,8 +6,8 @@ from flask_cors import CORS
 import jwt
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'anmnm66ds77HHkdj76'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root@localhost/fall_detection'
+app.config['SECRET_KEY'] = ''#insert secret key
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root@'#complete the db url
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 CORS(app)
